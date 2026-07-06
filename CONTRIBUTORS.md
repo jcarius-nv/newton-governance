@@ -4,61 +4,70 @@ Please refer to the [contributors data](https://github.com/newton-physics/newton
 
 # Project Members
 
-Not listing Project Members that also serve as Maintainers.
+Not listing Project Members that also serve as Maintainers or TSC Members.
 
+* Nicolas Capens
 * Christopher Crouzet
 * Andrew Kaufman
-* Andre Pradhana
+* apradhana
 * Kelly Guo
-* Michael Sauter  
+* Michael Sauter
 * Adam Moravanszky
-* Ossama Ahmed  
+* Ossama Ahmed
+* etaoxing
+* Ruben Grandia
 * Anka Chen
 * Ales Borovicka
 * Gordon Yeoman
+* Yutaka Yoshisaka
 * Zach Corse
-* Dylan Turpin
-* Antoine Richard
+* dylanturpin
+* moennen
+* Guirec-Maloisel
+* Antoine RICHARD
 * Lukasz Wawrzyniak
 * Viktor Reutskyy
 * Wenchao Huang
-* Gilles Daviet
-* Akhil Docca
-* Tobias Widmer
-* JC Chang
-* Teresa Conceicao
-* Ruchik Thaker
-* Milad Rakhsha
-* Neelakantan Mani
-* Julia von Muralt
-* Ryan Gresia
-* Chris Amevor  
-* Miguel Zamora
-* Lennart Roestel
-* Guirec Maloisel 
-* Christian Schumacher
-* Ruben Grandia
+* Mustafa H
 * Agon Serifi
-* David Cao-Müller
-* Lou Rohan
-* Yutaka Yoshisaka
+* gdaviet
+* Akhil-Docca
+* Lennart Röstel
+* Philipp Reist
+* nvtw
+* JC-nvidia
+* Daniela Hase
+* tconceicaoNV
+* nv-rthaker
+* Kenny Vilella
+* Milad-Rakhsha-NV
+* neelkm
+* Julia von Muralt
+* nv-rgresia
+* camevor
+* Christian Schumacher
+* David
+* mzamoramora-nvidia
+* Dex Smither
+* Jeff Hough NV
+* frankchenlw
+* jenv-nv
 
 # Maintainers
 
-* Saran Tunyasuvunakool
-* Eric Shi
-* Eric Heiden
-* Philipp Reist
-* Vassilios Tsounis
 * Miles Macklin
+* Saran Tunyasuvunakool
+* Vassilios Tsounis
+* Eric Heiden
+* Jan Carius
+* Eric Shi
 * Alain Denzler
-* Kenny Vilella
 
 # TSC Members
 
-* Moritz Baecher
+* Erik Frey
+* Miles Macklin
 * Vassilios Tsounis - co-chair
 * Yuval Tassa
-* Erik Frey
+* moritzbaecher
 * Mohammad Mohajerani - co-chair
-* Miles Macklin
