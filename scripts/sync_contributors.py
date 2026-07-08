@@ -92,7 +92,11 @@ def fetch_team_members(team: str) -> list[dict]:
 
 
 def display_name(user: dict) -> str:
-    return (user.get("name") or "").strip() or user["login"]
+    login = user["login"]
+    name = (user.get("name") or "").strip()
+    if name:
+        return f"{name} (@{login})"
+    return f"@{login}"
 
 
 def render_entries(users: list[dict], suffixes: dict[str, str] | None = None) -> list[str]:

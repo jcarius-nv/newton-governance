@@ -6,68 +6,68 @@ Please refer to the [contributors data](https://github.com/newton-physics/newton
 
 Not listing Project Members that also serve as Maintainers or TSC Members.
 
-* Nicolas Capens
-* Christopher Crouzet
-* Andrew Kaufman
-* apradhana
-* Kelly Guo
-* Michael Sauter
-* Adam Moravanszky
-* Ossama Ahmed
-* etaoxing
-* Ruben Grandia
-* Anka Chen
-* Ales Borovicka
-* Gordon Yeoman
-* Yutaka Yoshisaka
-* Zach Corse
-* dylanturpin
-* moennen
-* Guirec-Maloisel
-* Antoine RICHARD
-* Lukasz Wawrzyniak
-* Viktor Reutskyy
-* Wenchao Huang
-* Mustafa H
-* Agon Serifi
-* gdaviet
-* Akhil-Docca
-* Lennart Röstel
-* Philipp Reist
-* nvtw
-* JC-nvidia
-* Daniela Hase
-* tconceicaoNV
-* nv-rthaker
-* Kenny Vilella
-* Milad-Rakhsha-NV
-* neelkm
-* Julia von Muralt
-* nv-rgresia
-* camevor
-* Christian Schumacher
-* David
-* mzamoramora-nvidia
-* Dex Smither
-* Jeff Hough NV
-* frankchenlw
-* jenv-nv
+* Nicolas Capens (@c0d1f1ed)
+* Christopher Crouzet (@christophercrouzet)
+* Andrew Kaufman (@andrewkaufman)
+* @apradhana
+* Kelly Guo (@kellyguo11)
+* Michael Sauter (@msauter-nvidia)
+* Adam Moravanszky (@amoravanszky)
+* Ossama Ahmed (@ossamaAhmed)
+* etaoxing (@etaoxing)
+* Ruben Grandia (@rubengrandia)
+* Anka Chen (@AnkaChan)
+* Ales Borovicka (@AlesBorovicka)
+* Gordon Yeoman (@gyeomannvidia)
+* Yutaka Yoshisaka (@ft-lab)
+* Zach Corse (@daedalus5)
+* @dylanturpin
+* @moennen
+* @Guirec-Maloisel
+* Antoine RICHARD (@AntoineRichard)
+* Lukasz Wawrzyniak (@nvlukasz)
+* Viktor Reutskyy (@vreutskyy)
+* Wenchao Huang (@WenchaoHuang)
+* Mustafa H (@StafaH)
+* Agon Serifi (@aserifi)
+* @gdaviet
+* @Akhil-Docca
+* Lennart Röstel (@lenroe)
+* Philipp Reist (@preist-nvidia)
+* @nvtw
+* JC (@jumyungc)
+* Daniela Hase (@daniela-hase)
+* @tconceicaoNV
+* nv-rthaker (@rthaker01)
+* Kenny Vilella (@Kenny-Vilella)
+* @Milad-Rakhsha-NV
+* @neelkm
+* Julia von Muralt (@jvonmuralt)
+* @nv-rgresia
+* @camevor
+* Christian Schumacher (@chschuma-disney)
+* David Cao-Mueller (@david-cao-mueller)
+* @mzamoramora-nvidia
+* Dex Smither (@dsmither-lgtm)
+* Jeff Hough NV (@jeff-hough)
+* @frankchenlw
+* @jenv-nv
 
 # Maintainers
 
-* Miles Macklin
-* Saran Tunyasuvunakool
-* Vassilios Tsounis
-* Eric Heiden
-* Jan Carius
-* Eric Shi
-* Alain Denzler
+* Miles Macklin (@mmacklin)
+* Saran Tunyasuvunakool (@saran-t)
+* Vassilios Tsounis (@vastsoun)
+* Eric Heiden (@eric-heiden)
+* Jan Carius (@jcarius-nv)
+* Eric Shi (@shi-eric)
+* Alain Denzler (@adenzler-nvidia)
 
 # TSC Members
 
-* Erik Frey
-* Miles Macklin
-* Vassilios Tsounis - co-chair
-* Yuval Tassa
-* moritzbaecher
-* Mohammad Mohajerani - co-chair
+* Erik Frey (@erikfrey)
+* Miles Macklin (@mmacklin)
+* Vassilios Tsounis (@vastsoun) - co-chair
+* Yuval Tassa (@yuvaltassa)
+* @moritzbaecher
+* Mohammad Mohajerani (@momo-van) - co-chair
