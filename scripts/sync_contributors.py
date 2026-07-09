@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync CONTRIBUTORS.md from GitHub organization teams.
+"""Sync CONTRIBUTORS.md from GitHub governance teams.
 
 The source of truth is the GitHub teams that define Newton project roles.
 """
@@ -15,15 +15,9 @@ from pathlib import Path
 
 
 ORG = "newton-physics"
-PROJECT_MEMBERS_TEAM = "project-members"
 MAINTAINERS_TEAM = "maintainers"
 TSC_TEAM = "newton-tsc"
 CONTRIBUTORS_PATH = Path("CONTRIBUTORS.md")
-
-# Org-level accounts that are not individual project participants.
-EXCLUDED_LOGINS = {
-    "thelinuxfoundation",
-}
 
 TSC_SUFFIXES = {
     "momo-van": " - co-chair",
@@ -105,30 +99,13 @@ def render_entries(users: list[dict], suffixes: dict[str, str] | None = None) ->
 
 
 def render_contributors() -> str:
-    project_team_members = fetch_team_members(PROJECT_MEMBERS_TEAM)
     maintainers = fetch_team_members(MAINTAINERS_TEAM)
     tsc_members = fetch_team_members(TSC_TEAM)
-
-    maintainer_logins = {user["login"] for user in maintainers}
-    tsc_logins = {user["login"] for user in tsc_members}
-    project_members = [
-        user
-        for user in project_team_members
-        if user["login"] not in maintainer_logins
-        and user["login"] not in tsc_logins
-        and user["login"] not in EXCLUDED_LOGINS
-    ]
 
     lines = [
         "# Community Members",
         "",
         "Please refer to the [contributors data](https://github.com/newton-physics/newton/graphs/contributors) in the repository insights.",
-        "",
-        "# Project Members",
-        "",
-        "Not listing Project Members that also serve as Maintainers or TSC Members.",
-        "",
-        *render_entries(project_members),
         "",
         "# Maintainers",
         "",

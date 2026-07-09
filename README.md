@@ -8,7 +8,7 @@ The project was initiated by [Disney Research](https://www.disneyresearch.com/),
 
 ## Contributor List
 
-Sync [CONTRIBUTORS.md](CONTRIBUTORS.md) from the `newton-physics` GitHub organization role teams:
+Sync the Maintainers and TSC sections in [CONTRIBUTORS.md](CONTRIBUTORS.md) from the `newton-physics` GitHub organization governance teams:
 
 Prerequisites:
 
