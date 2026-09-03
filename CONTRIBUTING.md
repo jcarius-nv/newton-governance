@@ -24,11 +24,9 @@ Newton uses [EasyCLA](https://lfcla.com/) for managing CLAs, which automatically
 
 * If you are an individual writing the code on your own time and you're SURE you are the sole owner of any intellectual property you contribute, you can sign the CLA as [an individual contributor](https://docs.linuxfoundation.org/lfx/easycla/contributors/individual-contributor) (ICLA).
 
-* If you are writing the code as part of your job, or if there is any possibility that your employers might think they own any intellectual property you create, then you should use the [Corporate Contributor](https://docs.linuxfoundation.org/lfx/easycla/contributors/corporate-contributor) License Agreement (CCLA).
-
 ### Corporate Contributions
 
-If you contribute as part of your employment, or your employer may own the intellectual property you contribute, you must contribute under a CCLA rather than an ICLA.
+If you contribute as part of your employment, or your employer may own the intellectual property you contribute, you must use the Linux Foundation's [Corporate Contributor License Agreement](https://docs.linuxfoundation.org/lfx/easycla/contributors/corporate-contributor) (CCLA) rather than an ICLA.
 
 Opening a pull request against an EasyCLA-enabled Newton repository triggers the EasyCLA check. If authorization is required, the check displays a prompt and a link to the EasyCLA Contributor Console. Select the corporate contributor workflow there; you do not need to find a separate registration page before opening your pull request.
 
