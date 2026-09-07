@@ -24,6 +24,12 @@ TSC_SUFFIXES = {
     "vastsoun": " - co-chair",
 }
 
+TSC_NAME_OVERRIDES = {
+    "Aeoliane": "Louis Lian",
+    "frankchenlw": "Frank Chen",
+    "moritzbaecher": "Moritz Baecher",
+}
+
 TEAM_MEMBERS_QUERY = """
 query TeamMembers($org: String!, $team: String!, $after: String) {
   organization(login: $org) {
@@ -85,17 +91,22 @@ def fetch_team_members(team: str) -> list[dict]:
         after = page_info["endCursor"]
 
 
-def display_name(user: dict) -> str:
+def display_name(user: dict, name_overrides: dict[str, str] | None = None) -> str:
     login = user["login"]
-    name = (user.get("name") or "").strip()
+    name_overrides = name_overrides or {}
+    name = (name_overrides.get(login) or user.get("name") or "").strip()
     if name:
         return f"{name} (@{login})"
     return f"@{login}"
 
 
-def render_entries(users: list[dict], suffixes: dict[str, str] | None = None) -> list[str]:
+def render_entries(
+    users: list[dict],
+    suffixes: dict[str, str] | None = None,
+    name_overrides: dict[str, str] | None = None,
+) -> list[str]:
     suffixes = suffixes or {}
-    return [f"* {display_name(user)}{suffixes.get(user['login'], '')}" for user in users]
+    return [f"* {display_name(user, name_overrides)}{suffixes.get(user['login'], '')}" for user in users]
 
 
 def render_contributors() -> str:
@@ -113,7 +124,7 @@ def render_contributors() -> str:
         "",
         "# TSC Members",
         "",
-        *render_entries(tsc_members, TSC_SUFFIXES),
+        *render_entries(tsc_members, TSC_SUFFIXES, TSC_NAME_OVERRIDES),
         "",
     ]
 

@@ -22,7 +22,7 @@ Please refer to the [contributors data](https://github.com/newton-physics/newton
 * Joe Masterjohn (@joemasterjohn)
 * Yuval Tassa (@yuvaltassa)
 * Rick Cory (@rcory)
-* @moritzbaecher
-* Lian (@Aeoliane)
+* Moritz Baecher (@moritzbaecher)
+* Louis Lian (@Aeoliane)
 * Mohammad Mohajerani (@momo-van) - co-chair
-* @frankchenlw
+* Frank Chen (@frankchenlw)

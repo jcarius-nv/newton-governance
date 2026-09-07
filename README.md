@@ -24,3 +24,5 @@ python3 scripts/sync_contributors.py --check
 ```
 
 The `--write` command updates `CONTRIBUTORS.md` in place. The `--check` command exits non-zero and prints a diff when `CONTRIBUTORS.md` is out of date.
+
+TSC entries can use explicit display-name overrides in `scripts/sync_contributors.py` when a member's public GitHub profile does not show their full governance name.
