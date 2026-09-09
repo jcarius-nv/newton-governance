@@ -15,13 +15,11 @@ Please refer to the [contributors data](https://github.com/newton-physics/newton
 
 # TSC Members
 
-* Erik Frey (@erikfrey)
 * Miles Macklin (@mmacklin)
 * Vassilios Tsounis (@vastsoun) - co-chair
 * Michael Sherman (@sherm1)
 * Joe Masterjohn (@joemasterjohn)
 * Yuval Tassa (@yuvaltassa)
-* Rick Cory (@rcory)
 * Moritz Baecher (@moritzbaecher)
 * Louis Lian (@Aeoliane)
 * Mohammad Mohajerani (@momo-van) - co-chair
